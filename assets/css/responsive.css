@@ -1,0 +1,81 @@
+/* =======================================*/
+/* ********** Max width 1200 px ***********/
+@media (max-width: 1200px) {
+	.full-service{
+		width: 1040px;
+	}
+	.full-service .service-body .item{
+		margin: 0px 15px 0px 15px;
+	}
+	.full-service .service-body .item p {
+    font-size: 12px;
+    width: 96%;
+	}
+}
+/*****************************************/
+/*=======================================*/
+
+
+/*=======================================*/
+/*********** Max width 992 px ***********/
+@media (max-width: 992px) {
+	.full-service{
+		width: 840px;
+	}
+	.full-service .service-body{
+		display: inline-block;
+	}
+	.full-service .service-body .item{
+		width: 46%;
+		float: left;
+		margin: 0px 16px 30px 17px;
+	}
+	.full-service .service-body .item img{
+		height: 250px;
+	}
+}
+/*****************************************/
+/*=======================================*/
+
+
+/*=======================================*/
+/************ Max width 768 px ***********/
+@media (max-width: 768px) {
+	.full-service{
+		width: 640px;
+	}
+	.full-service .service-body .item{
+		width: 42%;
+    margin: 0px 20px 40px 28px;
+	}
+	.full-service .service-body .item p {
+    font-size: 11px;
+	}
+}
+/******************************************/
+/*=======================================*/
+
+
+/*=======================================*/
+/************ Max width 576 px ***********/
+@media (max-width: 576px) {
+	.full-service{
+		width: 440px;
+	}
+	.full-service .service-header h2{
+		font-size: 28px;
+	}
+	.full-service .service-body .item{
+		width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+	}
+	.full-service .service-body .item h4 {
+		font-size: 18px;
+	}
+	.full-service .service-body .item p {
+    font-size: 14px;
+	}
+}
+/******************************************/
+/*=======================================*/
